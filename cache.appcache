@@ -4,3 +4,6 @@ CACHE MANIFEST
 # 表示需要离线存储的资源列表
 CACHE: 
   pic_info.png
+
+NETWORK:  
+*
