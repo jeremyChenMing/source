@@ -1,4 +1,3 @@
-  
 var VERSION = 'v3';
 
 // 缓存
@@ -6,9 +5,9 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(VERSION).then(function(cache) {
       return cache.addAll([
-        './index.html',
+        './start.html',
         './static/jquery.min.js',
-        './static/mm1.png'
+        './static/mm1.jpg'
       ]);
     })
   );
@@ -40,6 +39,6 @@ self.addEventListener('fetch', function(event) {
     });
     return response.clone();
   }).catch(function() {
-    return caches.match('./static/mm1.png');
+    return caches.match('./static/mm1.jpg');
   }));
 });
