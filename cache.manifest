@@ -1,6 +1,6 @@
 CACHE MANIFEST
-#v0.11
+#version 1.3  //版本号很重要，每次修改这里的版本号，就会触发缓存资源的更新
 
 CACHE: //表示需要离线存储的资源列表
-index.html
-pic_info.png
+  index.html
+  pic_info.png
