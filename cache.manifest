@@ -1,0 +1,6 @@
+CACHE MANIFEST
+#v0.11
+
+CACHE: //表示需要离线存储的资源列表
+index.html
+pic_info.png
